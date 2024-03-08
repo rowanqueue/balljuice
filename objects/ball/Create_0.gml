@@ -19,6 +19,11 @@ shake = false;
 
 function earn_money(){
     cash_money+=1
+	var _number = instance_create_layer(x,y,"Instances",number);
+	_number.color = image_blend;
+	_number.xSpeed = sign(vel_x) * 5;
+	_number.ySpeed += sign(vel_y) * 5;
+	
     image_blend = make_color_hsv(random_range(0, 255), 240, 240);
 }
 

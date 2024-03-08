@@ -4,14 +4,14 @@ if(x <= sprite_width / 2 || x >= room_width-(sprite_width/2)){
     image_angle = bounce_angle * sign(vel_x);
     
     earn_money()
-    shakeScreen(60, 10, 0.2);
+    shakeScreen(5, 10, 0.4);
 }
 if(y <= sprite_height / 2 || y >= room_height-(sprite_height / 2)){
     vel_y *= -1
     image_angle = bounce_angle * -sign(vel_y);
     earn_money()
     
-    shakeScreen(60, 10, 0.2);
+    shakeScreen(5, 10, 0.4);
 }
 
 if(keyboard_check_pressed(vk_anykey)){

@@ -18,5 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"s_shrek","order":1,"path":"sprites/s_shrek/s_shrek.yy",},
+    {"name":"number","order":1,"path":"objects/number/number.yy",},
   ],
 }
