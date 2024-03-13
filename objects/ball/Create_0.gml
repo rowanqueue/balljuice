@@ -5,8 +5,10 @@ vel_y = 0
 cash_money = 0 
 
 initial_speed = 0.5
-click_boost = 3
-my_friction = 0.99
+click_boost = 2.2
+my_friction = 0.96
+bounce_mult = 1.3
+speed_max = 20
 
 angle_lerp_rate = 0.1
 bounce_angle = 25;

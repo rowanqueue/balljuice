@@ -1,13 +1,13 @@
 //STEP 
 if(x <= sprite_width / 2 || x >= room_width-(sprite_width/2)){
-    vel_x *= -1
+    vel_x *= -bounce_mult
     image_angle = bounce_angle * sign(vel_x);
     
     earn_money()
     shakeScreen(5, 10, 0.4);
 }
 if(y <= sprite_height / 2 || y >= room_height-(sprite_height / 2)){
-    vel_y *= -1
+    vel_y *= -bounce_mult
     image_angle = bounce_angle * -sign(vel_y);
     earn_money()
     
@@ -43,6 +43,9 @@ if(shake){
 
 vel_x*=my_friction
 vel_y*=my_friction
+
+vel_x = clamp(vel_x,-speed_max,speed_max)
+vel_y = clamp(vel_y,-speed_max,speed_max)
 
 x+=vel_x
 y+=vel_y
