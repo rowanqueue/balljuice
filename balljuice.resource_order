@@ -19,7 +19,8 @@
   "ResourceOrderSettings": [
     {"name":"s_shrek","order":1,"path":"sprites/s_shrek/s_shrek.yy",},
     {"name":"number","order":1,"path":"objects/number/number.yy",},
+    {"name":"buttonSpeed","order":3,"path":"objects/buttonSpeed/buttonSpeed.yy",},
     {"name":"spr_button","order":2,"path":"sprites/spr_button/spr_button.yy",},
-    {"name":"obj_button","order":2,"path":"objects/obj_button/obj_button.yy",},
+    {"name":"buttonParent","order":2,"path":"objects/buttonParent/buttonParent.yy",},
   ],
 }

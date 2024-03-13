@@ -36,10 +36,11 @@
   "resources": [
     {"id":{"name":"s_shrek","path":"sprites/s_shrek/s_shrek.yy",},},
     {"id":{"name":"number","path":"objects/number/number.yy",},},
+    {"id":{"name":"buttonSpeed","path":"objects/buttonSpeed/buttonSpeed.yy",},},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
     {"id":{"name":"ball","path":"objects/ball/ball.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
-    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
+    {"id":{"name":"buttonParent","path":"objects/buttonParent/buttonParent.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

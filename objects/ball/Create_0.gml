@@ -5,11 +5,11 @@ vel_y = 0
 cash_money = 0 
 
 initial_speed = 0.5
-click_boost = 2.2
+click_boost = 1.5
 my_friction = 0.96
 bounce_mult = 1.3
 speed_max = 20
-boost_speed_increase = 10;
+boost_speed_increase = 4;
 
 angle_lerp_rate = 0.1
 bounce_angle = 25;
@@ -40,9 +40,5 @@ function shakeScreen(_time, _mag, _fade){
 
 function Boost()
 {
-	if(cash_money > 0)
-	{
-		cash_money -= 1;
-		speed_max += boost_speed_increase;
-	}
+	speed_max += boost_speed_increase;
 }
